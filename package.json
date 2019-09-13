@@ -102,6 +102,7 @@
         "double",
         "avoid-escape"
       ],
+      "no-console": "off",
       "no-debugger": "error",
       "no-undef": "error",
       "no-tabs": "error",
