@@ -55,7 +55,8 @@
     "lint-fix": "eslint --fix lib",
     "build": "rimraf dist/* && rollup --config --silent",
     "prepare": "npm run build",
-    "postversion": "echo 'Remember to update the changelog!'"
+    "postversion": "echo 'Remember to update the changelog!'",
+    "postinstall": "npm run prepare"
   },
   "keywords": [
     "uglify",
